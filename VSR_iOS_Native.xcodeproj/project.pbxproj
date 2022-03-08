@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		806BB6DF27D1D317002D3722 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806BB6DE27D1D316002D3722 /* colors.xcassets */; };
 		806BB6E227D5BE57002D3722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806BB6E027D5BE57002D3722 /* Main.storyboard */; };
+		806BB6E627D62809002D3722 /* ProfileScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806BB6E527D62809002D3722 /* ProfileScreenController.swift */; };
 		80D9296F27D090C400627489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9296E27D090C400627489 /* AppDelegate.swift */; };
 		80D9297127D090C400627489 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9297027D090C400627489 /* SceneDelegate.swift */; };
 		80D9297327D090C400627489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9297227D090C400627489 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		806BB6DE27D1D316002D3722 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
 		806BB6E127D5BE57002D3722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806BB6E527D62809002D3722 /* ProfileScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenController.swift; sourceTree = "<group>"; };
 		80D9296B27D090C400627489 /* VSR_iOS_Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSR_iOS_Native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D9296E27D090C400627489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D9297027D090C400627489 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				80D9297927D090CB00627489 /* LaunchScreen.storyboard */,
 				80D9297C27D090CB00627489 /* Info.plist */,
 				806BB6DE27D1D316002D3722 /* colors.xcassets */,
+				806BB6E527D62809002D3722 /* ProfileScreenController.swift */,
 			);
 			path = VSR_iOS_Native;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D9297327D090C400627489 /* ViewController.swift in Sources */,
+				806BB6E627D62809002D3722 /* ProfileScreenController.swift in Sources */,
 				80D9296F27D090C400627489 /* AppDelegate.swift in Sources */,
 				80D9297127D090C400627489 /* SceneDelegate.swift in Sources */,
 			);
